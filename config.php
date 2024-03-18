@@ -11,7 +11,7 @@ define("PATH_ROOT", dirname(__FILE__));
 
 define("PATH_LIB", PATH_ROOT . DS . "library" . DS);
 
-define("URL_ROOT", "http://www.localhost/blog");
+define("URL_ROOT", "http://www.localhost/gitlab/Arena");
 
 define("SELF", basename($_SERVER['PHP_SELF']));
 
