@@ -1,0 +1,22 @@
+[09-Jan-2024 16:24:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'skycodeit_arena.students_speaks' doesn't exist in /home2/skycodeit/public_html/arenabsk/library/class.database.php:505
+Stack trace:
+#0 /home2/skycodeit/public_html/arenabsk/library/class.database.php(505): mysqli_query()
+#1 /home2/skycodeit/public_html/arenabsk/library/class.database.php(1071): MySqlDb->query()
+#2 /home2/skycodeit/public_html/arenabsk/students_speak.php(115): MySqlDb->getRows()
+#3 {main}
+  thrown in /home2/skycodeit/public_html/arenabsk/library/class.database.php on line 505
+[10-Jan-2024 13:44:35 Asia/Calcutta] PHP Warning:  include(fotter.php): Failed to open stream: No such file or directory in /home2/skycodeit/public_html/arenabsk/trinity-course.php on line 196
+[10-Jan-2024 13:44:35 Asia/Calcutta] PHP Warning:  include(): Failed opening 'fotter.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/skycodeit/public_html/arenabsk/trinity-course.php on line 196
+[10-Jan-2024 13:44:38 Asia/Calcutta] PHP Warning:  include(fotter.php): Failed to open stream: No such file or directory in /home2/skycodeit/public_html/arenabsk/trinity-course.php on line 196
+[10-Jan-2024 13:44:38 Asia/Calcutta] PHP Warning:  include(): Failed opening 'fotter.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home2/skycodeit/public_html/arenabsk/trinity-course.php on line 196
+[13-Jan-2024 10:21:23 Asia/Calcutta] PHP Warning:  Undefined array key "mobile" in /home2/skycodeit/public_html/arenabsk/contactus.php on line 11
+[14-Feb-2024 17:24:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home2/skycodeit/arenabsk/library/class.database.php:305
+Stack trace:
+#0 /home2/skycodeit/arenabsk/library/class.database.php(305): mysqli_connect()
+#1 /home2/skycodeit/arenabsk/library/class.database.php(111): MySqlDb->connect()
+#2 /home2/skycodeit/arenabsk/config.php(42): MySqlDb->__construct()
+#3 /home2/skycodeit/arenabsk/header.php(3): include('/home2/skycodei...')
+#4 /home2/skycodeit/arenabsk/index.php(2): include('/home2/skycodei...')
+#5 {main}
+  thrown in /home2/skycodeit/arenabsk/library/class.database.php on line 305
+[08-Mar-2024 05:55:14 Asia/Calcutta] PHP Warning:  Undefined array key "mobile" in /home2/skycodeit/arenabsk/toogle.php on line 9
