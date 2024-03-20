@@ -1,6 +1,8 @@
 <?php include'header.php';?>
+<?php include 'responsive.php' ?>
+
 <style>
-  @media only screen and (max-width:2064px){
+  /* @media only screen and (max-width:2064px){
   #maincontainerapp{
     margin-top:200px;
   }
@@ -27,11 +29,11 @@
   @media only screen and (max-width:425px){
   #maincontainerapp{
     margin-top:0px;
-  }
+  } */
   .ftrText{
     margin-top:0px;
   }
-  }
+  
   .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;

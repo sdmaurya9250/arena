@@ -1,6 +1,7 @@
 <?php include 'header.php';?>
+<?php include'responsive.php'?>
 
-<style>
+<!-- <style>
   @media only screen and (max-width:2064px){
   #maincontainerapp{
     margin-top:200px;
@@ -34,7 +35,7 @@
   }
   }
  
-  </style>
+  </style> -->
 <!-- Mirrored from arenajayanagar.com/apply.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Dec 2023 11:38:26 GMT -->
 <?php 
 if (isset($_POST['submit_action'])){

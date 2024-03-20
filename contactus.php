@@ -1,4 +1,5 @@
 <?php include'header.php';?>
+<?php include'responsive.php'?>
 
 <?php 
 if (isset($_POST['submit'])){
@@ -50,7 +51,7 @@ else {
 ?>
 
 <style>
-  @media only screen and (max-width:2064px){
+  /* @media only screen and (max-width:2064px){
   #maincontainerapp{
     margin-top:-200px;
   }
@@ -81,7 +82,7 @@ else {
   .ftrText{
     margin-top:0px;
   }
-  }
+  } */
  
   </style>
 

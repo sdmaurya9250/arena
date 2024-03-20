@@ -1,0 +1,8 @@
+.h1logo h1img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: -1;
+    /* Setting z-index to -1 for the image */
+}

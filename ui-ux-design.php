@@ -1,5 +1,7 @@
 <?php include 'header.php'; ?>
-<style>
+<?php include 'responsive.php' ?>
+
+<!-- <style>
   @media only screen and (max-width:2064px){
   #maincontainerapp{
     margin-top:234px;
@@ -33,7 +35,7 @@
   }
   }
  
-  </style>
+  </style> -->
 
 
 

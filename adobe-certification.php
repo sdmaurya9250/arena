@@ -1,4 +1,5 @@
 ﻿<?php include'header.php' ?>
+<?php include'responsive.php'?>
 <div class="wow fadeInDown" id="mainwrp"><img class="img-responsive" src="images/ban-fish.jpg"  alt="" /></div>
 <?php include'toogle.php'?>
 <div id="maincontainerapp">

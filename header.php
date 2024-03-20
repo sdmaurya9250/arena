@@ -1,5 +1,6 @@
 <?php include 'config.php' ?>
 <?php include 'whatsapp.php' ?>
+<?php include 'responsive.php' ?>
 
 <head>
   <meta property="og:locale" content="en_US" />
@@ -70,6 +71,7 @@
     href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic|Questrial'
     rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="css/logo.css" type="text/css" />
 
   <!-- JAVASCRIPT START HERE -->
   <script src="js/respond.js"></script>
@@ -159,22 +161,27 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCH47D4" height="0" width="0"
     style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<div class="adbewrp wow fadeInDownBig "><a href="adobe-certification.php"><img src="images/adode_certi.jpg"
-      alt="" /></a></div>
-<img class="logo" src="images/arena_bsk.png" />
-<img id="logo-right" style="width:8%;" style="margin-le" class="logo" src="images/arena_gaming.png" />
+
+
+
+
+
+
+<!-- <img class="logo" src="images/arena_bsk.png" />
+<img id="logo-right" style="width:8%;" style="margin-le" class="logo" src="images/arena_gaming.png" /> -->
 
 
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 bgtp"><i class="fa fa-phone"></i>&nbsp;
-      <a id="uniqueid"class="cfount"
-        href="tel:8050412609">Call:&nbsp;8050412609,&nbsp;8867067333</a>
+      <a id="uniqueid" class="cfount" href="tel:8050412609">Call:&nbsp;8050412609,&nbsp;8867067333</a>
     </div>
   </div>
 </div>
 <!-- Static navbar -->
 <div class="navbar navbar-default scrollMenu ">
+  <img class="h1img" src="images/arena_bsk.png" alt="">
+  <img class="h2img" src="images/arena_gaming.png" alt="">
   <!--<a class="logo"><img src="images/brand.jpg" class="img-responsive"></a>-->
   <div class="navbar-header">
 

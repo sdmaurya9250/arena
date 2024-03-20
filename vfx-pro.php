@@ -1,39 +1,5 @@
 <?php include'header.php' ?>
-<style>
-  @media only screen and (max-width:2064px){
-  #maincontainerapp{
-    margin-top:224px;
-  }
-  .ftrText{
-    margin-top:0px;
-  }
-  }
-  @media only screen and (max-width:1440px){
-  #maincontainerapp{
-    margin-top:200px;
-  }
-  .ftrText{
-    margin-top:0px;
-  }
-  }
-  @media only screen and (max-width:1024px){
-  #maincontainerapp{
-    margin-top:160px;
-  }
-  .ftrText{
-    margin-top:0px;
-  }
-  }
-  @media only screen and (max-width:425px){
-  #maincontainerapp{
-    margin-top:0px;
-  }
-  .ftrText{
-    margin-top:0px;
-  }
-  }
- 
-  </style>
+<?php include'responsive.php'?>
 <body>
 
 <div class="wow fadeInDown" id="mainwrp"><img class="img-responsive" src="images/banner/vfx-compositing.jpg"  alt="VFx Pro" /></div>

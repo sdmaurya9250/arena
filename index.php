@@ -98,6 +98,27 @@ include ("testmail/mail.php");
       }
 
     }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    @media (max-width: 991px) {
+      .adbewrp {
+        display: none;
+      }
+    }
+
+    @media (min-width: 641px) and (max-width: 768px) {
+      body {
+        /* background-color: red; */
+        overflow-x: hidden;
+      }
+
+      .col-xs-6 {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -110,6 +131,8 @@ include ("testmail/mail.php");
       <!-- Wrapper for slides -->
 
       <div class="carousel-inner" role="listbox">
+        <div class="adbewrp wow fadeInDownBig "><a href="adobe-certification.php"><img src="images/adode_certi.jpg"
+              alt="" /></a></div>
 
         <div class="item active">
           <a href="graphic-design.php" target="blank"><img src="images/carousel/img1.jpg"

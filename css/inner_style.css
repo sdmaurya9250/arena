@@ -1186,7 +1186,7 @@ h2 {
     width: 100%;
     overflow: hidden;
     position: absolute;
-    top: 68%;
+    /* top: 68%; */
     left: 0;
     right: 0;
 }
@@ -1248,8 +1248,8 @@ a:hover {
 }
 
 #maincontappl .col-md-3 {
-    padding-left: 8px !important;
-    padding-right: 0px !important;
+    /* padding-left: 8px !important;
+    padding-right: 0px !important; */
 }
 
 #maincontappl h1 {
@@ -2446,8 +2446,8 @@ th {
     }
 
     #maincontappl .col-md-3 {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+        /* padding-left: 0px !important;
+        padding-right: 0px !important; */
 
         line-height: 0;
     }
@@ -2903,10 +2903,10 @@ th {
         text-decoration: none !important;
     }
 
-    #maincontappl .col-md-3 {
+    /* #maincontappl .col-md-3 {
         padding-left: 0px !important;
         padding-right: 0px !important;
-    }
+    } */
 
     #maincontappl h1 {
         margin-top: 5%;
@@ -4668,10 +4668,10 @@ th {
         text-decoration: none !important;
     }
 
-    #maincontappl .col-md-3 {
+    /* #maincontappl .col-md-3 {
         padding-left: 0px !important;
         padding-right: 0px !important;
-    }
+    } */
 
     #maincontappl h1 {
         margin-top: 5%;
@@ -5319,10 +5319,10 @@ th {
         text-decoration: none !important;
     }
 
-    #maincontappl .col-md-3 {
+    /* #maincontappl .col-md-3 {
         padding-left: 0px !important;
         padding-right: 0px !important;
-    }
+    } */
 
     #maincontappl h1 {
         margin-top: 5%;
@@ -5593,7 +5593,7 @@ th {
         width: 100%;
         overflow: hidden;
         position: absolute;
-        top: 70%;
+        top: 15%;
         left: 0;
         right: 0;
     }

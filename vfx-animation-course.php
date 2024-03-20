@@ -1,6 +1,7 @@
 <?php include'header.php'; ?>
+<?php include 'responsive.php' ?>
 
-<style>
+<!-- <style>
   @media only screen and (max-width:2064px){
   #maincontainerapp{
     margin-top:200px;
@@ -34,7 +35,7 @@
   }
   }
  
-  </style>
+  </style> -->
 <body>
 <div class="wow fadeInDown" id="mainwrp"><img class="img-responsive" src="images/banner/broad-cast.jpg"  alt="Degree in Visual Fx and Animation" /></div>
 <?php include'toogle.php'?>
