@@ -119,6 +119,62 @@ include ("testmail/mail.php");
         width: 100%;
       }
     }
+
+    .video_test h1 {
+      position: relative;
+      padding: 0;
+      margin: 0;
+      font-family: "Raleway", sans-serif;
+      font-weight: 300;
+      font-size: 27px !important;
+      color: #080808;
+      -webkit-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s;
+    }
+
+    .fa-arrow-circle-o-right {
+      font-size: 2em !important;
+      margin-left: -16px !important;
+    }
+
+    @media only screen and (max-width: 640px) {
+      .col-md-6 {
+        width: 100% !important;
+      }
+    }
+
+    @media (min-width: 402px) and (max-width: 792px) {
+      h1 {
+        font-size: 1.6em;
+        color: #050503;
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 24px;
+        margin-top: 15px !important;
+      }
+    }
+
+      @media (max-width: 450px) {
+
+        .col-md-3,
+        .col-sm-3,
+        .col-xs-3 {
+          width: 50% !important;
+          /* Adjust width to 50% for smaller screens */
+        }
+
+        .thumbnail {
+          height: 150px !important;
+          overflow: hidden;
+        }
+
+        .thumbnail img {
+          height: 100% !important;
+          width: 100% !important;
+        }
+
+      }
   </style>
 </head>
 
@@ -299,9 +355,6 @@ include ("testmail/mail.php");
         <p class="placehed" style="text-align: center;">Arena Media Planet</p>
         <div class="row">
           <div class="well">
-
-            <!-- Carousel
-            ================================================== -->
             <div id="myCarousel" class="carousel slide">
               <div class="carousel-inner">
                 <div class="item active">

@@ -1,6 +1,7 @@
 <?php include'header.php'?>
+<?php include 'responsive.php' ?>
 <style>
-  @media only screen and (max-width:2064px){
+  /* @media only screen and (max-width:2064px){
   #maincontainerapp{
     margin-top:200px;
   }
@@ -31,7 +32,7 @@
   .ftrText{
     margin-top:0px;
   }
-  }
+  } */
  
   </style>
 <div class="wow fadeInDown" id="mainwrp"><img class="img-responsive" src="images/banner_apply.jpg"  alt="" /></div>

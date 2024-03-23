@@ -539,7 +539,7 @@
 
             .studwrks-cont {
                 font-family: Oswald, Arial;
-                font-size: 15px;
+                font-size: 12px !important;
                 color: #090909;
                 text-decoration: none;
                 font-weight: bold;
@@ -551,7 +551,7 @@
 
             .placecont {
                 font-family: Oswald, Arial;
-                font-size: 15px;
+                font-size: 12px !important;
                 color: #fc6c08;
                 text-decoration: none;
                 font-weight: bold;
@@ -563,7 +563,7 @@
 
             .clickto {
                 font-family: Oswald, Arial;
-                font-size: 15px;
+                font-size: 12px !important;
                 color: #fc6c08;
                 text-decoration: none;
                 font-weight: bold;
@@ -575,7 +575,7 @@
 
             .downld-cont {
                 font-family: Oswald, Arial;
-                font-size: 15px;
+                font-size: 12px !important;
                 color: #090909;
                 text-decoration: none;
                 font-weight: bold;
@@ -597,7 +597,7 @@
 
             .studwrks-cont {
                 font-family: Oswald, Arial;
-                font-size: 14px;
+                font-size: 12px !important;
                 color: #090909;
                 text-decoration: none;
                 font-weight: bold;
@@ -621,7 +621,7 @@
 
             .clickto {
                 font-family: Oswald, Arial;
-                font-size: 14px;
+                font-size: 12px !important;
                 color: #fc6c08;
                 text-decoration: none;
                 font-weight: bold;
@@ -645,7 +645,7 @@
 
             .studspeaksmain {
                 font-family: Oswald, Arial;
-                font-size: 16px;
+                font-size: 12px !important;
                 color: #fc6c08;
                 text-decoration: none;
                 font-weight: bold;
